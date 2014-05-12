@@ -1,0 +1,5 @@
+<rules>
+  <rule>
+    <match lemma="hund" tags="n.*"><select lemma="cane" tags="n.*"/></match>
+  </rule>
+</rules>

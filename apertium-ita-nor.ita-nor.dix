@@ -1,0 +1,127 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="n"       c="Noun"/>
+    <sdef n="np"      c="Proper noun"/>
+    <sdef n="prn"     c="Pronoun"/>
+    <sdef n="det"     c="Determiner"/>
+    <sdef n="pos"     c="Possessive"/>
+
+    <sdef n="p1"      c="1st person"/>
+    <sdef n="p2"      c="2nd person"/>
+    <sdef n="p3"      c="3rd person"/>
+
+    <sdef n="nt"      c="Neuter"/>
+    <sdef n="mf"      c="Masculine / feminine, also utrum in nouns"/>
+    <sdef n="f"       c="Feminine"/>
+    <sdef n="m"       c="Masculine"/>
+    <sdef n="ut"      c="Utrum"/>
+
+    <sdef n="sp"      c="Singular / plural"/>
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="pl"      c="Plural"/>
+
+    <sdef n="ind"     c="Indefinite"/>
+    <sdef n="def"     c="Definite"/>
+
+    <sdef n="nom"     c="Nominative"/>
+    <sdef n="acc"     c="Accusative"/>        <!-- objective case -->
+    <sdef n="gen"     c="Genitive"/>
+
+    <sdef n="dem"     c="Demonstrative"/>
+    <sdef n="itg"     c="Question word / interrogative"/>
+    <sdef n="qnt"     c="Quantifier"/>
+    <sdef n="neg"     c="Negative"/>
+    <sdef n="emph"   c="Emphatic"/>
+
+    <sdef n="vblex"   c="Verb"/>
+    <sdef n="pstv"    c="-st verb (Nynorsk)"/>
+    <sdef n="pass"    c="Passive (Bokmål) or -st form (Nynorsk)"/>
+    <sdef n="inf"     c="Infinitive"/>
+    <sdef n="pres"    c="Present"/>
+    <sdef n="imp"     c="Imperative"/>
+    <sdef n="pret"    c="Preterite"/>
+    <sdef n="pp"      c="Perfect participle"/>
+    <sdef n="pprs"  c="Present participle (adjectival)"/>
+
+    <sdef n="pr"      c="Preposition"/>
+    <sdef n="ij"      c="Interjection"/>
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="adj"     c="Adjective"/>
+    <sdef n="sint"    c="Synthetic (of adjectives)"/>
+    <sdef n="cnjsub"  c="Subordinating conjunction"/>
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+    <sdef n="cnjadv"  c="Adverbial conjunction"/>
+
+    <sdef n="posi"    c="Positive"/>
+    <sdef n="comp"    c="Comparative"/>
+    <sdef n="sup"     c="Superlative"/>
+
+    <sdef n="num"     c="Numeral"/>
+    <sdef n="ord"     c="Ordinal"/>
+    <sdef n="acr"     c="Acronym"/>
+    <sdef n="sent"    c="Sentence end" />
+    <sdef n="cm"      c="Comma" />
+    <sdef n="clb"     c="Possible clause boundary"/>
+    <sdef n="overskrift" c="Headline"/>
+    <sdef n="apos"    c="Apostrophe" />
+    <sdef n="lpar"    c="Left parenthesis" />
+    <sdef n="rpar"    c="Right parenthesis" />
+
+    <sdef n="top"     c="Toponym" />
+    <sdef n="ant"     c="Anthroponym" />
+
+    <sdef n="GD"     c="Género por determinar" />
+    <sdef n="ND"     c="Número por determinar" />
+  </sdefs>
+
+  <pardefs>
+    <!--
+        A colon (:) in pardef names separate the left from the right
+    -->
+    <pardef n=":/leg__adj">
+      <e vr="nno"><p><l></l><r>leg<s n="adj"/></r></p></e>
+      <e vr="nob"><p><l></l><r>lig<s n="adj"/></r></p></e>
+    </pardef>
+  </pardefs>
+
+  <section id="main" type="standard">
+
+    <!-- SECTION: Conjunctions -->
+
+    <e><p><l>che<s n="cnjsub"/></l><r>at<s n="cnjsub"/></r></p></e>
+
+    <!-- SECTION: Prepositions -->
+
+    <e><p><l>dietro<s n="pr"/></l><r>bak<s n="pr"/></r></p></e>
+
+    <!-- SECTION: Pronouns -->
+
+    <!-- SECTION: Adverbs -->
+
+    <e vr="nno"><p><l>non<s n="adv"/></l><r>ikkje<s n="adv"/></r></p></e>
+    <e vr="nob"><p><l>non<s n="adv"/></l><r>ikke<s n="adv"/></r></p></e>
+
+    <!-- SECTION: Nouns  -->
+
+    <e><p><l>cane<s n="n"/><s n="m"/></l><r>hund<s n="n"/><s n="m"/></r></p></e>
+
+    <!-- SECTION: Adjectives  -->
+
+    <e><p><l>chiaro<s n="adj"/></l><r>tyde</r></p><par n=":/leg__adj"/></e>
+
+
+    <!-- SECTION: Punctuation  -->
+<e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="det"/><s n="qnt"/></l><r><s n="det"/><s n="qnt"/></r></p></e>
+<e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+<e><re>[½¹²³¼¾]</re><p><l><s n="det"/><s n="qnt"/></l><r><s n="det"/><s n="qnt"/></r></p></e>
+<e>       <p><l>..<s n="sent"/></l><r>..<s n="sent"/></r></p></e>
+<e>       <p><l>...<s n="sent"/></l><r>...<s n="sent"/></r></p></e>
+<e>       <p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
+<e><re>,</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
+
+<e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
+<e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
+
+  </section>
+</dictionary>
