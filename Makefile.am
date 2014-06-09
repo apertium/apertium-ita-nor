@@ -61,29 +61,29 @@ TARGETS_COMMON = \
 
 # Italian
 
-$(PREFIX1b).automorf.bin: $(AP_LIB1)/$(LANG1).automorf.bin $(PREFIX1b).autobil.bin
+$(PREFIX1b).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1b).autobil.bin
 	lt-trim $^ $@
 
-$(PREFIX1n).automorf.bin: $(AP_LIB1)/$(LANG1).automorf.bin $(PREFIX1n).autobil.bin
+$(PREFIX1n).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1n).autobil.bin
 	lt-trim $^ $@
 
-$(PREFIX2).autogen.bin: $(AP_LIB1)/$(LANG1).autogen.bin
+$(PREFIX2).autogen.bin: $(AP_SRC1)/$(LANG1).autogen.bin
 	cp $< $@
 
 
 # Norwegian
 
-$(PREFIX2b).automorf.bin: $(AP_LIB2b)/$(LANG2b).automorf.bin $(PREFIX2).autobil.bin
-	lt-trim $(AP_LIB2b)/$(LANG2b).automorf.bin $(PREFIX2).autobil.bin $@
+$(PREFIX2b).automorf.bin: $(AP_SRC2b)/$(LANG2b).automorf.bin $(PREFIX2).autobil.bin
+	lt-trim $(AP_SRC2b)/$(LANG2b).automorf.bin $(PREFIX2).autobil.bin $@
 
-$(PREFIX2n).automorf.bin: $(AP_LIB2n)/$(LANG2n).automorf.bin $(PREFIX2).autobil.bin
-	lt-trim $(AP_LIB2n)/$(LANG2n).automorf.bin $(PREFIX2).autobil.bin $@
+$(PREFIX2n).automorf.bin: $(AP_SRC2n)/$(LANG2n).automorf.bin $(PREFIX2).autobil.bin
+	lt-trim $(AP_SRC2n)/$(LANG2n).automorf.bin $(PREFIX2).autobil.bin $@
 
 
-$(PREFIX1b).autogen.bin: $(AP_LIB2b)/$(LANG2b).autogen.bin
+$(PREFIX1b).autogen.bin: $(AP_SRC2b)/$(LANG2b).autogen.bin
 	cp $< $@
 
-$(PREFIX1n).autogen.bin: $(AP_LIB2n)/$(LANG2n).autogen.bin
+$(PREFIX1n).autogen.bin: $(AP_SRC2n)/$(LANG2n).autogen.bin
 	cp $< $@
 
 
@@ -92,13 +92,13 @@ $(PREFIX1n).autogen.bin: $(AP_LIB2n)/$(LANG2n).autogen.bin
 ## Disambiguation models
 ###############################################################################
 
-$(PREFIX1).prob: $(AP_LIB1)/$(LANG1).prob
+$(PREFIX1).prob: $(AP_SRC1)/$(LANG1).prob
 	cp $< $@
 
-$(PREFIX2b).prob: $(AP_LIB2b)/$(LANG2b).prob
+$(PREFIX2b).prob: $(AP_SRC2b)/$(LANG2b).prob
 	cp $< $@
 
-$(PREFIX2n).prob: $(AP_LIB2n)/$(LANG2n).prob
+$(PREFIX2n).prob: $(AP_SRC2n)/$(LANG2n).prob
 	cp $< $@
 
 ###############################################################################
