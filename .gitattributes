@@ -16,4 +16,5 @@
 /apertium-ita-nor.nor-ita.t3x -text svneol=unset#application/xml
 /autogen.sh -text
 /configure.ac -text
+dev/convert-blds.sh -text
 /modes.xml -text svneol=unset#application/xml
