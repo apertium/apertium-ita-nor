@@ -18,4 +18,4 @@
 /autogen.sh -text
 /configure.ac -text
 dev/convert-blds.sh -text
-/modes.xml -text svneol=unset#application/xml
+/modes.xml -text svneol=unset#text/plain

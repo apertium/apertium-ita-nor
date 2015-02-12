@@ -68,6 +68,52 @@
     </pipeline>
   </mode>
 
+
+  <mode name="ita-nor-morph" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ita-nob.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="ita-nor-disam" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ita-nob.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ita-nor.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="ita-nor-tagger" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ita-nob.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ita-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ita-nor.prob"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="ita-nor-pretransfer" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ita-nob.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ita-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ita-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+
   <!-- nor → ita -->
 
   <mode name="nob-ita" install="yes">

@@ -2,8 +2,6 @@
 ## Makefile for Italian--Norwegian
 ###############################################################################
 
-SUBDIRS=$(AP_SUBDIRS)
-
 VERSION=0.1.0
 LANG1=ita
 LANG2=nor
