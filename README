@@ -1,0 +1,94 @@
+Italian and Norwegian
+
+                            apertium-ita-nor
+===============================================================================
+
+This is an Apertium language pair for translating between Italian and 
+Norwegian. What you can use this language package for:
+
+* Translating between Italian and Norwegian
+* Morphological analysis of Italian and Norwegian
+* Part-of-speech tagging of Italian and Norwegian
+
+For information on the latter two points, see subheading "For more 
+information" below
+
+Requirements
+===============================================================================
+
+You will need the following software installed:
+
+* lttoolbox (>= 3.3.0)
+* apertium (>= 3.3.0)
+* vislcg3 (>= 0.9.9.10297)
+
+
+If this does not make any sense, we recommend you look at: www.apertium.org
+
+Compiling
+===============================================================================
+
+Given the requirements being installed, you should be able to just run:
+
+$ ./configure 
+$ make
+# make install
+
+You can use ./autogen.sh instead of ./configure you're compiling from
+SVN. If you installed any prerequisite language packages using a --prefix
+to ./configure, make sure to give the same --prefix to ./configure here.
+
+Testing
+===============================================================================
+
+If you are in the source directory after running make, the following
+commands should work:
+
+$  echo "TODO test sentence 1" | apertium -d . ita-nno
+TODO test translated sentence 1
+
+$  echo "TODO test sentence 1" | apertium -d . ita-nob
+TODO test translated sentence 1
+
+$ echo "TODO test sentence 2" | apertium -d . nno-ita
+TODO test translated sentence 2
+
+$ echo "TODO test sentence 2" | apertium -d . nob-ita
+TODO test translated sentence 2
+
+After installing somewhere in $PATH, you should be able to do e.g.
+
+$  echo "TODO test sentence 1" | apertium ita-nno
+TODO test translated sentence 1
+
+Files and data
+===============================================================================
+
+* apertium-ita-nor.ita-nor.dix  - Bilingual dictionary
+* apertium-ita-nor.ita-nor.t1x  - Chunking rules for translating into Italian
+* apertium-ita-nor.nor-ita.t1x  - Chunking rules for translating into Norwegian
+* apertium-ita-nor.ita-nor.t2x  - Chunking rules for translating into Italian
+* apertium-ita-nor.nor-ita.t2x  - Chunking rules for translating into Norwegian
+* apertium-ita-nor.ita-nor.t3x  - Chunking rules for translating into Italian
+* apertium-ita-nor.nor-ita.t3x  - Chunking rules for translating into Norwegian
+* apertium-ita-nor.ita-nor.rlx  - Lexical selection rules for translating into Italian
+* apertium-ita-nor.nor-ita.rlx  - Lexical selection rules for translating into Norwegian
+* modes.xml                     - Translation modes
+
+For more information
+===============================================================================
+
+* http://wiki.apertium.org/wiki/Installation
+* http://wiki.apertium.org/wiki/apertium-ita-nor
+* http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
+
+Help and support
+===============================================================================
+
+If you need help using this language pair or data, you can contact:
+
+* Mailing list: apertium-stuff@lists.sourceforge.net
+* IRC: #apertium on irc.freenode.net
+
+See also the file AUTHORS included in this distribution.
+
