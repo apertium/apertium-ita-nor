@@ -8,13 +8,13 @@
 /README -text
 /apertium-ita-nor.ita-nor.dix -text
 /apertium-ita-nor.ita-nor.lrx -text
-/apertium-ita-nor.ita-nor.t1x -text svneol=unset#application/xml
-/apertium-ita-nor.ita-nor.t2x -text svneol=unset#application/xml
-/apertium-ita-nor.ita-nor.t3x -text svneol=unset#application/xml
+/apertium-ita-nor.ita-nor.t1x -text svneol=unset#text/plain
+/apertium-ita-nor.ita-nor.t2x -text svneol=unset#text/plain
+/apertium-ita-nor.ita-nor.t3x -text svneol=unset#text/plain
 /apertium-ita-nor.nor-ita.lrx -text
-/apertium-ita-nor.nor-ita.t1x -text svneol=unset#application/xml
-/apertium-ita-nor.nor-ita.t2x -text svneol=unset#application/xml
-/apertium-ita-nor.nor-ita.t3x -text svneol=unset#application/xml
+/apertium-ita-nor.nor-ita.t1x -text svneol=unset#text/plain
+/apertium-ita-nor.nor-ita.t2x -text svneol=unset#text/plain
+/apertium-ita-nor.nor-ita.t3x -text svneol=unset#text/plain
 /autogen.sh -text
 /configure.ac -text
 dev/convert-blds.sh -text
