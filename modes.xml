@@ -114,6 +114,256 @@
     </pipeline>
   </mode>
 
+  <mode name="ita-nno-biltrans" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ita-nno.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ita-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ita-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="ita-nno.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="ita-nno-chunker" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ita-nno.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ita-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ita-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="ita-nno.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b -t">
+        <file name="apertium-ita-nor.ita-nor.t1x"/>
+        <file name="ita-nor.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="ita-nno-interchunk" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ita-nno.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ita-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ita-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="ita-nno.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-ita-nor.ita-nor.t1x"/>
+        <file name="ita-nor.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk -t">
+        <file name="apertium-ita-nor.ita-nor.t2x"/>
+        <file name="ita-nor.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="ita-nno-postchunk" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ita-nno.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ita-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ita-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="ita-nno.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-ita-nor.ita-nor.t1x"/>
+        <file name="ita-nor.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-ita-nor.ita-nor.t2x"/>
+        <file name="ita-nor.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-ita-nor.ita-nor.t3x"/>
+        <file name="ita-nor.t3x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="ita-nno-dgen" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ita-nno.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ita-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ita-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="ita-nno.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-ita-nor.ita-nor.t1x"/>
+        <file name="ita-nor.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-ita-nor.ita-nor.t2x"/>
+        <file name="ita-nor.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-ita-nor.ita-nor.t3x"/>
+        <file name="ita-nor.t3x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="ita-nno.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="ita-nob-biltrans" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ita-nob.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ita-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ita-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="ita-nob.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="ita-nob-chunker" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ita-nob.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ita-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ita-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="ita-nob.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b -t">
+        <file name="apertium-ita-nor.ita-nor.t1x"/>
+        <file name="ita-nor.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="ita-nob-interchunk" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ita-nob.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ita-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ita-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="ita-nob.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-ita-nor.ita-nor.t1x"/>
+        <file name="ita-nor.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk -t">
+        <file name="apertium-ita-nor.ita-nor.t2x"/>
+        <file name="ita-nor.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="ita-nob-postchunk" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ita-nob.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ita-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ita-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="ita-nob.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-ita-nor.ita-nor.t1x"/>
+        <file name="ita-nor.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-ita-nor.ita-nor.t2x"/>
+        <file name="ita-nor.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-ita-nor.ita-nor.t3x"/>
+        <file name="ita-nor.t3x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="ita-nob-dgen" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ita-nob.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ita-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ita-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="ita-nob.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-ita-nor.ita-nor.t1x"/>
+        <file name="ita-nor.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-ita-nor.ita-nor.t2x"/>
+        <file name="ita-nor.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-ita-nor.ita-nor.t3x"/>
+        <file name="ita-nor.t3x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="ita-nob.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <!-- nor → ita -->
 
   <mode name="nob-ita" install="yes">
