@@ -67,7 +67,7 @@
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
         <choose><when>
-          <test><equal><clip pos="1" side="sl" part="lemh"/><lit v="il"/></equal></test>
+          <test><equal caseless="yes"><clip pos="1" side="sl" part="lemh"/><lit v="il"/></equal></test>
           <out>
             <b pos="1"/>
             <chunk name="nom" case="caseFirstWord">
