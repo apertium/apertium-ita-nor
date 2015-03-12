@@ -95,6 +95,27 @@
       </action>
     </rule>
 
+    <rule comment="NOM">
+      <pattern>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="nom" case="caseFirstWord">
+            <tags>
+              <tag><clip pos="1" side="tl" part="tags"/></tag>
+              <tag><lit-tag v="ind"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+              <lit-tag v="ind"/> <!-- TODO: default-add a defnes in bidix? -->
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: SENT">
       <pattern>
         <pattern-item n="sent"/>
