@@ -1,0 +1,24 @@
+[0DUCxD10owuT#0] ^,<cm>$
+[/0DUCxD10owuT]
+[8OWKFhQZEHgB#0] ^¹<det><qnt><un><pl>$
+[/8OWKFhQZEHgB]
+[FENlFSlUC4QH#0] ^ricevere<vblex><imp><p1><sg>$
+[/FENlFSlUC4QH]
+[GBhwuqXhOUgQ#0] ^¾<det><qnt><un><pl>$
+[/GBhwuqXhOUgQ]
+[PztzooXYgCLy#0] ^³<det><qnt><un><pl>$
+[/PztzooXYgCLy]
+[V4U6phz7eudH#0] ^²<det><qnt><un><pl>$
+[/V4U6phz7eudH]
+[iKEp1xoDquHz#0] ^*urveriskadaoøt$
+[/iKEp1xoDquHz]
+[iNH5irIl3B20#0] ^'<apos>$
+[/iNH5irIl3B20]
+[io3oI9XtPhJ0#0] ^?<sent>$
+[/io3oI9XtPhJ0]
+[jNM1r7EY4I8L#0] ^pure<adv>$
+[/jNM1r7EY4I8L]
+[yt_MrvVeqRHl#0] ^*vertemfigs$
+[/yt_MrvVeqRHl]
+[zbTuKuppzGqD#0] ^.<sent>$
+[/zbTuKuppzGqD]

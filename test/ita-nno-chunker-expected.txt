@@ -1,0 +1,30 @@
+[0IB31Mid3j4m#0] ^default<default>{^innen<pr>$}$
+[/0IB31Mid3j4m]
+[0c4zS2p_Nkse#0] ^default<default>{^5<det><qnt><pl><percent>$}$
+[/0c4zS2p_Nkse]
+[0eHXfsF8O1Wj#0] ^default<default>{^3<det><qnt><pl><percent>$}$
+[/0eHXfsF8O1Wj]
+[EBSTCmkzY2hf#0] ^default<default>{^meg<prn><pro><p1><mf><sg>$}$
+[/EBSTCmkzY2hf]
+[M0f3IErZDaD0#0] ^default<default>{^den<det><dem><def><mf><sg>$}$
+[/M0f3IErZDaD0]
+[NQxIXDmhWU7y#0] ^unknown<unknown>{^*kcs$}$
+[/NQxIXDmhWU7y]
+[QT1NS68zl9bs#0] ^default<default>{^du<prn><pro><p2><mf><sg>$}$
+[/QT1NS68zl9bs]
+[QnR6orDzotjB#0] ^default<default>{^0888<det><qnt><pl><percent>$}$
+[/QnR6orDzotjB]
+[RhprNrOvsovf#0] ^default<default>{^4<det><qnt><pl><percent>$}$
+[/RhprNrOvsovf]
+[SyJ3d9TdH8Yc#0] ^default<default>{^4<det><qnt><pl>$}$
+[/SyJ3d9TdH8Yc]
+[ecOPNLGMzr0R#0] ^unknown<unknown>{^*yacgnoieiʼii$}$^default<default>{^'<apos>$}$^unknown<unknown>{^*c$}$
+[/ecOPNLGMzr0R]
+[io3oI9XtPhJ0#0] ^sent<SENT>{^?<sent><clb>$}$
+[/io3oI9XtPhJ0]
+[q132Jbx229Th#0] ^sent<SENT>{^...<sent><clb>$}$
+[/q132Jbx229Th]
+[tx0eA8T3SRhy#0] ^default<default>{^endog<adv>$}$
+[/tx0eA8T3SRhy]
+[ul7FHQekrA6V#0] ^default<default>{^)<rpar>$}$
+[/ul7FHQekrA6V]

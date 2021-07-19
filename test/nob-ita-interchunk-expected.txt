@@ -1,0 +1,24 @@
+[0DUCxD10owuT#0] ^default<default>{^,<cm>$}$
+[/0DUCxD10owuT]
+[8OWKFhQZEHgB#0] ^default<default>{^¹<det><qnt><un><pl>$}$
+[/8OWKFhQZEHgB]
+[FENlFSlUC4QH#0] ^default<default>{^ricevere<vblex><imp><p1><sg>$}$
+[/FENlFSlUC4QH]
+[GBhwuqXhOUgQ#0] ^default<default>{^¾<det><qnt><un><pl>$}$
+[/GBhwuqXhOUgQ]
+[PztzooXYgCLy#0] ^default<default>{^³<det><qnt><un><pl>$}$
+[/PztzooXYgCLy]
+[V4U6phz7eudH#0] ^default<default>{^²<det><qnt><un><pl>$}$
+[/V4U6phz7eudH]
+[iKEp1xoDquHz#0] ^unknown<unknown>{^*urveriskadaoøt$}$
+[/iKEp1xoDquHz]
+[iNH5irIl3B20#0] ^default<default>{^'<apos>$}$
+[/iNH5irIl3B20]
+[io3oI9XtPhJ0#0] ^default<default>{^?<sent>$}$
+[/io3oI9XtPhJ0]
+[jNM1r7EY4I8L#0] ^default<default>{^pure<adv>$}$
+[/jNM1r7EY4I8L]
+[yt_MrvVeqRHl#0] ^unknown<unknown>{^*vertemfigs$}$
+[/yt_MrvVeqRHl]
+[zbTuKuppzGqD#0] ^default<default>{^.<sent>$}$
+[/zbTuKuppzGqD]

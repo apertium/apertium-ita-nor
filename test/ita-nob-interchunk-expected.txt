@@ -1,0 +1,28 @@
+[0c4zS2p_Nkse#0] ^default<default>{^5<det><qnt><pl><percent>$}$
+[/0c4zS2p_Nkse]
+[0eHXfsF8O1Wj#0] ^default<default>{^3<det><qnt><pl><percent>$}$
+[/0eHXfsF8O1Wj]
+[97_WkGW3L9SB#0] ^default<default>{^når<adv><itg>$}$
+[/97_WkGW3L9SB]
+[FxDY5ijqulVn#0] ^default<default>{^meg<prn><pro><p1><mf><sg>$}$
+[/FxDY5ijqulVn]
+[M0f3IErZDaD0#0] ^default<default>{^den<det><dem><def><mf><sg>$}$
+[/M0f3IErZDaD0]
+[Muuxq8wcYBzr#0] ^default<default>{^(<lpar>$}$
+[/Muuxq8wcYBzr]
+[NQxIXDmhWU7y#0] ^unknown<unknown>{^*kcs$}$
+[/NQxIXDmhWU7y]
+[QbgF6nrAFOI1#0] ^sent<SENT>{^;<sent><clb>$}$
+[/QbgF6nrAFOI1]
+[QnR6orDzotjB#0] ^default<default>{^0888<det><qnt><pl><percent>$}$
+[/QnR6orDzotjB]
+[RhprNrOvsovf#0] ^default<default>{^4<det><qnt><pl><percent>$}$
+[/RhprNrOvsovf]
+[SyJ3d9TdH8Yc#0] ^default<default>{^4<det><qnt><pl>$}$
+[/SyJ3d9TdH8Yc]
+[ecOPNLGMzr0R#0] ^unknown<unknown>{^*yacgnoieiʼii$}$^default<default>{^'<apos>$}$^unknown<unknown>{^*c$}$
+[/ecOPNLGMzr0R]
+[x30zlqw3YoUE#0] ^default<default>{^til<pr>$}$ ^default<default>{^den<det><dem><def><mf><sg>$}$
+[/x30zlqw3YoUE]
+[xeO-pBn0l5QA#0] ^default<default>{^uten<pr>$}$
+[/xeO-pBn0l5QA]

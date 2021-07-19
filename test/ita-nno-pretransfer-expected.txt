@@ -1,0 +1,30 @@
+[0IB31Mid3j4m#0] ^prima di<pr>$
+[/0IB31Mid3j4m]
+[0c4zS2p_Nkse#0] ^5<num><percent>$
+[/0c4zS2p_Nkse]
+[0eHXfsF8O1Wj#0] ^3<num><percent>$
+[/0eHXfsF8O1Wj]
+[EBSTCmkzY2hf#0] ^mi<prn><pro><p1><mf><sg>$
+[/EBSTCmkzY2hf]
+[M0f3IErZDaD0#0] ^il<det><def><mf><sg>$
+[/M0f3IErZDaD0]
+[NQxIXDmhWU7y#0] ^*kcs$
+[/NQxIXDmhWU7y]
+[QT1NS68zl9bs#0] ^ti<prn><pro><p2><mf><sg>$
+[/QT1NS68zl9bs]
+[QnR6orDzotjB#0] ^0888<num><percent>$
+[/QnR6orDzotjB]
+[RhprNrOvsovf#0] ^4<num><percent>$
+[/RhprNrOvsovf]
+[SyJ3d9TdH8Yc#0] ^4<num>$
+[/SyJ3d9TdH8Yc]
+[ecOPNLGMzr0R#0] ^*yacgnoieiʼii$^'<apos>$^*c$
+[/ecOPNLGMzr0R]
+[io3oI9XtPhJ0#0] ^?<sent>$
+[/io3oI9XtPhJ0]
+[q132Jbx229Th#0] ^...<sent>$
+[/q132Jbx229Th]
+[tx0eA8T3SRhy#0] ^anche<adv>$
+[/tx0eA8T3SRhy]
+[ul7FHQekrA6V#0] ^)<rpar>$
+[/ul7FHQekrA6V]

@@ -1,0 +1,28 @@
+[0c4zS2p_Nkse#0] ^5%/5<num><percent>$
+[/0c4zS2p_Nkse]
+[0eHXfsF8O1Wj#0] ^3%/3<num><percent>$
+[/0eHXfsF8O1Wj]
+[97_WkGW3L9SB#0] ^quand‘/quando<adv><itg>$
+[/97_WkGW3L9SB]
+[FxDY5ijqulVn#0] ^m’/mi<prn><pro><p1><mf><sg>$
+[/FxDY5ijqulVn]
+[M0f3IErZDaD0#0] ^l’/il<det><def><mf><sg>$
+[/M0f3IErZDaD0]
+[Muuxq8wcYBzr#0] ^(/(<lpar>$
+[/Muuxq8wcYBzr]
+[NQxIXDmhWU7y#0] ^kcs/*kcs$
+[/NQxIXDmhWU7y]
+[QbgF6nrAFOI1#0] ^;/;<sent>$
+[/QbgF6nrAFOI1]
+[QnR6orDzotjB#0] ^0888%/0888<num><percent>$
+[/QnR6orDzotjB]
+[RhprNrOvsovf#0] ^4%/4<num><percent>$
+[/RhprNrOvsovf]
+[SyJ3d9TdH8Yc#0] ^4/4<num>$
+[/SyJ3d9TdH8Yc]
+[ecOPNLGMzr0R#0] ^yacgnoieiʼii/*yacgnoieiʼii$^'/'<apos>$^c/*c$
+[/ecOPNLGMzr0R]
+[x30zlqw3YoUE#0] ^fino all´/fino a<pr>+il<det><def><mf><sg>$
+[/x30zlqw3YoUE]
+[xeO-pBn0l5QA#0] ^senz'/senza<pr>$
+[/xeO-pBn0l5QA]

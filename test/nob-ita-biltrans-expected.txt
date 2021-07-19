@@ -1,0 +1,24 @@
+[0DUCxD10owuT#0] ^,<cm>/,<cm>$
+[/0DUCxD10owuT]
+[8OWKFhQZEHgB#0] ^¹<det><qnt><un><pl>/¹<det><qnt><un><pl>$
+[/8OWKFhQZEHgB]
+[FENlFSlUC4QH#0] ^få<vblex><imp>/ricevere<vblex><imp><p1><sg>/avere modo di<vblex><imp><p1><sg>/aggiudicarsi<vblex><imp><p1><sg>/guadagnarsi<vblex><imp><p1><sg>/raccogliere<vblex><imp><p1><sg>/conquistare<vblex><imp><p1><sg>/riscuotere<vblex><imp><p1><sg>/conseguire<vblex><imp><p1><sg>/prendersi<vblex><imp><p1><sg>/riportare<vblex><imp><p1><sg>/risultare<vblex><imp><p1><sg>/prendere<vblex><imp><p1><sg>/derivare<vblex><imp><p1><sg>/avere<vblex><imp><p1><sg>/ottenere<vblex><imp><p1><sg>/accusare<vblex><imp><p1><sg>/vincere<vblex><imp><p1><sg>/farcela<vblex><imp><p1><sg>/beccare<vblex><imp><p1><sg>/buscare<vblex><imp><p1><sg>/potere<vblex><imp><p1><sg>/venire<vblex><imp><p1><sg>/dovere<vblex><imp><p1><sg>/subire<vblex><imp><p1><sg>/trarre<vblex><imp><p1><sg>$
+[/FENlFSlUC4QH]
+[GBhwuqXhOUgQ#0] ^¾<det><qnt><un><pl>/¾<det><qnt><un><pl>$
+[/GBhwuqXhOUgQ]
+[PztzooXYgCLy#0] ^³<det><qnt><un><pl>/³<det><qnt><un><pl>$
+[/PztzooXYgCLy]
+[V4U6phz7eudH#0] ^²<det><qnt><un><pl>/²<det><qnt><un><pl>$
+[/V4U6phz7eudH]
+[iKEp1xoDquHz#0] ^*urveriskadaoøt/*urveriskadaoøt$
+[/iKEp1xoDquHz]
+[iNH5irIl3B20#0] ^'<apos>/'<apos>$
+[/iNH5irIl3B20]
+[io3oI9XtPhJ0#0] ^?<sent><clb>/?<sent>$
+[/io3oI9XtPhJ0]
+[jNM1r7EY4I8L#0] ^òg<adv>/pure<adv>/anche<adv>$
+[/jNM1r7EY4I8L]
+[yt_MrvVeqRHl#0] ^*vertemfigs/*vertemfigs$
+[/yt_MrvVeqRHl]
+[zbTuKuppzGqD#0] ^.<sent><clb>/.<sent>$
+[/zbTuKuppzGqD]

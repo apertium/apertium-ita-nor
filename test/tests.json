@@ -1,0 +1,18 @@
+{
+    "ita-nno": {
+        "input": "ita-nno-input.txt",
+        "mode": "ita-nno"
+    },
+    "ita-nob": {
+        "input": "ita-nob-input.txt",
+        "mode": "ita-nob"
+    },
+    "nno-ita": {
+        "input": "nno-ita-input.txt",
+        "mode": "nno-ita"
+    },
+    "nob-ita": {
+        "input": "nob-ita-input.txt",
+        "mode": "nob-ita"
+    }
+}

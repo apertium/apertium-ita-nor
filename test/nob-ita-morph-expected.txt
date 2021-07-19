@@ -1,0 +1,24 @@
+[0DUCxD10owuT#0] ^,/,<cm>/,<cm><clb>$
+[/0DUCxD10owuT]
+[8OWKFhQZEHgB#0] ^¹/¹<det><qnt><un><pl>$
+[/8OWKFhQZEHgB]
+[FENlFSlUC4QH#0] ^få/få<vblex><imp>/få<vblex><inf>/få<adj><sint><pst><un><pl><ind>$
+[/FENlFSlUC4QH]
+[GBhwuqXhOUgQ#0] ^¾/¾<det><qnt><un><pl>$
+[/GBhwuqXhOUgQ]
+[PztzooXYgCLy#0] ^³/³<det><qnt><un><pl>$
+[/PztzooXYgCLy]
+[V4U6phz7eudH#0] ^²/²<det><qnt><un><pl>$
+[/V4U6phz7eudH]
+[iKEp1xoDquHz#0] ^urveriskadaoøt/*urveriskadaoøt$
+[/iKEp1xoDquHz]
+[iNH5irIl3B20#0] ^ʼ/'<apos>$
+[/iNH5irIl3B20]
+[io3oI9XtPhJ0#0] ^?/?<sent><clb>$
+[/io3oI9XtPhJ0]
+[jNM1r7EY4I8L#0] ^óg/òg<adv>$
+[/jNM1r7EY4I8L]
+[yt_MrvVeqRHl#0] ^vertemfigs/*vertemfigs$
+[/yt_MrvVeqRHl]
+[zbTuKuppzGqD#0] ^./.<sent><clb>$
+[/zbTuKuppzGqD]

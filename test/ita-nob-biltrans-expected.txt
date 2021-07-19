@@ -1,0 +1,28 @@
+[0c4zS2p_Nkse#0] ^5<num><percent>/5<det><qnt><pl><percent>$
+[/0c4zS2p_Nkse]
+[0eHXfsF8O1Wj#0] ^3<num><percent>/3<det><qnt><pl><percent>$
+[/0eHXfsF8O1Wj]
+[97_WkGW3L9SB#0] ^quando<adv><itg>/når<adv><itg>$
+[/97_WkGW3L9SB]
+[FxDY5ijqulVn#0] ^mi<prn><pro><p1><mf><sg>/meg<prn><pro><p1><mf><sg>/til meg<prn><pro><p1><mf><sg>/meg selv<prn><pro><p1><mf><sg>$
+[/FxDY5ijqulVn]
+[M0f3IErZDaD0#0] ^il<det><def><mf><sg>/den<det><dem><def><mf><sg>/hver<det><qnt><def><mf><sg>$
+[/M0f3IErZDaD0]
+[Muuxq8wcYBzr#0] ^(<lpar>/(<lpar>$
+[/Muuxq8wcYBzr]
+[NQxIXDmhWU7y#0] ^*kcs/*kcs$
+[/NQxIXDmhWU7y]
+[QbgF6nrAFOI1#0] ^;<sent>/;<sent><clb>$
+[/QbgF6nrAFOI1]
+[QnR6orDzotjB#0] ^0888<num><percent>/0888<det><qnt><pl><percent>$
+[/QnR6orDzotjB]
+[RhprNrOvsovf#0] ^4<num><percent>/4<det><qnt><pl><percent>$
+[/RhprNrOvsovf]
+[SyJ3d9TdH8Yc#0] ^4<num>/4<det><qnt><pl>$
+[/SyJ3d9TdH8Yc]
+[ecOPNLGMzr0R#0] ^*yacgnoieiʼii/*yacgnoieiʼii$^'<apos>/'<apos>$^*c/*c$
+[/ecOPNLGMzr0R]
+[x30zlqw3YoUE#0] ^fino a<pr>/til<pr>$ ^il<det><def><mf><sg>/den<det><dem><def><mf><sg>/hver<det><qnt><def><mf><sg>$
+[/x30zlqw3YoUE]
+[xeO-pBn0l5QA#0] ^senza<pr>/uten<pr>$
+[/xeO-pBn0l5QA]

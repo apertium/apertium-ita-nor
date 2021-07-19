@@ -1,0 +1,20 @@
+[0DUCxD10owuT#0] ^,/,<cm>/,<cm><clb>$
+[/0DUCxD10owuT]
+[NCFBkOjA1GBZ#0] ^¿/¿<sent><clb>$
+[/NCFBkOjA1GBZ]
+[ODjtmrDRznmW#0] ^quiumtar/*quiumtar$
+[/ODjtmrDRznmW]
+[PztzooXYgCLy#0] ^³/³<det><qnt><un><pl>$
+[/PztzooXYgCLy]
+[ZTdvFiRNj5gE#0] ^ltor/*ltor$
+[/ZTdvFiRNj5gE]
+[g4lb56mD-25k#0] ^½/½<det><qnt><un><pl>$
+[/g4lb56mD-25k]
+[iNH5irIl3B20#0] ^ʼ/'<apos>$
+[/iNH5irIl3B20]
+[nhf4hdoYd8eH#0] ^¼/¼<det><qnt><un><pl>$
+[/nhf4hdoYd8eH]
+[tJNYlMjOFr3m#0] ^…/…<sent><clb>$
+[/tJNYlMjOFr3m]
+[wYDIvEiCEagD#0] ^øer/*øer$
+[/wYDIvEiCEagD]
